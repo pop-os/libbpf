@@ -1,8 +1,9 @@
-libbpf (0.4.0-2) unstable; urgency=medium
+libbpf (0.4.0-1ubuntu1) focal; urgency=medium
 
-  * Upload to unstable.
+  * Merge from Debian experimental, remaining changes:
+    - Disable lto for now, not yet ready upstream.
 
- -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Tue, 17 Aug 2021 22:12:29 +0100
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 16 Jun 2021 09:28:30 +0100
 
 libbpf (0.4.0-1) experimental; urgency=medium
 
@@ -10,6 +11,12 @@ libbpf (0.4.0-1) experimental; urgency=medium
     - Update symbols.
 
  -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Tue, 25 May 2021 22:05:09 +0100
+
+libbpf (0.3-2ubuntu1) hirsute; urgency=medium
+
+  * Disable lto for now, not yet ready upstream.
+
+ -- Matthias Klose <doko@ubuntu.com>  Tue, 30 Mar 2021 17:28:01 +0200
 
 libbpf (0.3-2) unstable; urgency=medium
 
